@@ -1,0 +1,137 @@
+h1{
+    color:maroon; 
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+} 
+
+#one{
+    list-style-type: none;
+    padding-right:20px;
+    margin:0%;
+    text-align: end;
+} 
+
+ #one li{   
+    display:inline-block;
+    padding-right:20px;
+    
+}
+li a {
+    
+    color:black;
+    font-size: 25px;
+    text-decoration: none;  
+}
+
+li a:hover{
+    cursor:pointer;
+    color:blue;
+}
+ body{
+    background-color:grey 
+
+ }  
+
+.about{
+    text-align: left;
+    font-size: 25px;
+    font-style: inherit;
+
+}
+
+.para{
+    text-align: left;
+} 
+
+.h2{
+    text-align: center;
+    
+}
+.h3{
+    text-align: center;
+
+}
+.books{
+    text-align: center;
+    font-style: italic;
+}
+.trevor{
+    text-overflow: clip;
+    font-weight: 800px;
+    
+}.columnright{
+    float: right;
+    width: 50%;
+
+}
+.columnleft{
+    float: left;
+    width: 50%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#image{
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+#Home{
+    background-image: url(images/wall2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Olga{
+    padding-top: 50px;
+    padding-right: 50px
+
+}
+#para{
+    font-size: 50px;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+
+}
+footer{
+    height: auto;
+    padding-top: 40px;
+    position: absolute;
+    bottom: 0%;
+    width: 100vw;
+}
+.footer-content{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#h3{
+    text-align: center;
+}
+
+#copy{
+    text-align: center;
+
+}
+.socials li{
+    display:inline;
+    padding-left: 20px;
+    float: center;
+}
+.socials{
+    text-align: center;
+    padding-left:45%;
+}
+ .socials{
+    list-style: none;
+    display: flex;
+    text-align: center; 
+ }
+ #esther{
+     padding-top: 70px;
+     
+ }
